@@ -1,0 +1,137 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="true"
+        android:clickable="false"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+    <TableRow>
+
+        <TextView
+            android:id="@+id/id_00"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="0"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_01"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="1"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_02"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="2"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/id_10"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="0"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_11"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="1"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_12"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="2"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/id_20"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="0"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_21"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="1"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_22"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_column="2"
+            android:background="@drawable/shape"
+            android:textColor="#000"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </TableRow>
+</TableLayout>
+</RelativeLayout>
